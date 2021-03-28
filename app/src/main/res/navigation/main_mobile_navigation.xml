@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/firstFragment_navigation"
+    android:id="@+id/main_mobile_navigation">
+
+    <fragment android:id="@+id/firstFragment_navigation"
+        android:name="com.example.redline_project.fragment.FirstFragment"
+        tools:layout="@layout/fragment_first"/>
+
+    <fragment android:id="@+id/mainFragment_navigation"
+        android:name="com.example.redline_project.fragment.MainFragment"
+        tools:layout="@layout/fragment_main"/>
+
+    <fragment android:id="@+id/displayScrenFragment_navigation"
+        android:name="com.example.redline_project.fragment.DisplayScrenFragment"
+        tools:layout="@layout/fragment_display_scren"/>
+
+    <fragment android:id="@+id/detailscreen_fragment_navigation"
+        android:name="com.example.redline_project.fragment.DetailScreenFragment"
+        tools:layout="@layout/fragment_detail_screen" />
+
+</navigation>
